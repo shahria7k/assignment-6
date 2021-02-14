@@ -69,7 +69,7 @@ const createSlider = () => {
   `;
 	const durationRange = document.createElement("div");
 
-	durationRange.innerHTML = `<input type="range" min="100" max="3000" value="3" id="sliderRange" oninput="changeTimer()">`;
+	durationRange.innerHTML = `<input type="range" min="100" max="1500" value="3" id="sliderRange" oninput="changeTimer()">`;
 	sliderContainer.appendChild(prevNext);
 	sliderContainer.appendChild(durationRange);
 	document.querySelector(".main").style.display = "block";
