@@ -15,7 +15,8 @@ let sliders = [];
 const KEY = "15674931-a9d714b6e9d654524df198e00&q";
 
 // show images
-const showImages = (images) => {
+const showImages = (images/*array of images pass into here as "images"*/
+) => {
 	imagesArea.style.display = "block";
 	gallery.innerHTML = "";
 	// show gallery title
